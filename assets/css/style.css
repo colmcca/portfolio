@@ -1,0 +1,23 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    height: 75px;
+    background-color: aquamarine;
+    border-radius: 10px;
+    align-items: baseline;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#nav-list {
+    list-style: none;
+}
+
+.nav-list-item {
+    display: inline;
+    padding: 10px;
+}
