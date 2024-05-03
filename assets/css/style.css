@@ -77,3 +77,8 @@ header {
     align-items: center;
 }
 
+#picture-area {
+    display: flex;
+    
+}
+
