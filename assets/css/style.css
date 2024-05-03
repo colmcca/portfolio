@@ -57,7 +57,7 @@ header {
     padding: 5px;
 }
 
-#picture {
+#profile-picture {
   height: 300px;
   border: solid;
 }
@@ -79,6 +79,21 @@ header {
 
 #picture-area {
     display: flex;
-    
+    height: 400px;
+    justify-content: space-around;
+    width: 100%;
 }
 
+.work-titles {
+    text-align: center;
+}
+
+.work-area-1 {
+display: flex;
+flex-direction: column;
+}
+
+.work-pictures {
+width: 100%;
+height: 250px;
+}
