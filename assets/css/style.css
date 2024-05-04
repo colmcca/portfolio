@@ -14,7 +14,7 @@ body {
     padding: 5px;
 }
 
-.nav-links:hover {
+.nav-links:hover, .footer-links:hover {
     border: 3px dotted red;
     color: red;
     background: #fff;
@@ -75,6 +75,7 @@ header {
     background-color: antiquewhite;
     flex-wrap: wrap;
     align-items: center;
+    border-bottom: solid;
 }
 
 #picture-area {
@@ -103,3 +104,25 @@ height: 250px;
     rgba(232, 102, 236, 1);
     transition: box-shadow 0.2s ease-in-out;
 }
+
+#contact-me {
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+    width: 100%;
+    align-items: center;
+    background-color: antiquewhite;
+}
+
+#footer-flexbox {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.footer-links {
+    color: inherit;
+    text-decoration: none;
+}
+
