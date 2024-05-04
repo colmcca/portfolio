@@ -97,3 +97,9 @@ flex-direction: column;
 width: 100%;
 height: 250px;
 }
+
+.picture-hover:hover {
+    box-shadow: inset 0px 0px 8px rgba(232, 102, 236, 1), 0 0 15px
+    rgba(232, 102, 236, 1);
+    transition: box-shadow 0.2s ease-in-out;
+}
