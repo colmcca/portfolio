@@ -134,3 +134,15 @@ height: 250px;
     text-decoration: none;
 }
 
+@media screen and (max-width: 991px) {
+    header {
+        flex-direction: column;
+        height: 140px;
+        align-items: center;
+    }
+
+    #work {
+        height: 750px;
+    }
+}
+
